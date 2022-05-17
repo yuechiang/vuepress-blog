@@ -6,7 +6,7 @@ title: 波浪起伏
 heroImage: /img/logo2.png
 heroText: 简约的博客
 heroFullScreen: true
-tagline: 只有爬上山顶,才能翻越此山。
+tagline: 只有爬上山峰,才能翻越高山。
 projects:
 bgImage: /img/bk1.jpg
 
