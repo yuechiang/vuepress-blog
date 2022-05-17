@@ -1,1 +1,0 @@
-const t={key:"v-2b10fbde",path:"/myblog01.html",title:"My first blog",lang:"en-US",frontmatter:{date:"2022-05-16T00:00:00.000Z",title:"My first blog",bgImage:"logo.png"},excerpt:"",headers:[],git:{},readingTime:{minutes:.02,words:5},filePathRelative:"myblog01.md"};export{t as data};
