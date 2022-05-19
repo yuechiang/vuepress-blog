@@ -4,6 +4,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
+  port:80,
   theme: hopeTheme({
     // 此处放置主题配置
     logo: '/img/logo2.png',
