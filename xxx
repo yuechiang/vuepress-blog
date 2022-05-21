@@ -1,0 +1,3 @@
+#!/bin/sh
+echo 'jiangyue'
+npm run docs:build

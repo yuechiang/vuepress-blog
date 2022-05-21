@@ -7,10 +7,14 @@ export const pagesData = {
   "v-0be96e40": () => import(/* webpackChunkName: "v-0be96e40" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/2.跟尤雨溪学vue-plugin.html.js").then(({ data }) => data),
   // path: /article/Bats.html
   "v-61059cc9": () => import(/* webpackChunkName: "v-61059cc9" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/Bats.html.js").then(({ data }) => data),
+  // path: /article/daily2022-05-20.html
+  "v-b3cb250a": () => import(/* webpackChunkName: "v-b3cb250a" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/daily2022-05-20.html.js").then(({ data }) => data),
   // path: /article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A5.html
   "v-407f85f5": () => import(/* webpackChunkName: "v-407f85f5" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/daily2022年5月17日.html.js").then(({ data }) => data),
   // path: /article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A502.html
   "v-28801a33": () => import(/* webpackChunkName: "v-28801a33" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/daily2022年5月17日02.html.js").then(({ data }) => data),
+  // path: /article/ftp-linux.html
+  "v-983f3bbc": () => import(/* webpackChunkName: "v-983f3bbc" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/ftp-linux.html.js").then(({ data }) => data),
   // path: /article/git_remote_show.html
   "v-48e3e1fc": () => import(/* webpackChunkName: "v-48e3e1fc" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/git_remote_show.html.js").then(({ data }) => data),
   // path: /article/github_action.html
@@ -81,6 +85,10 @@ export const pagesData = {
   "v-3d5315f8": () => import(/* webpackChunkName: "v-3d5315f8" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/daily/index.html.js").then(({ data }) => data),
   // path: /tag/live/
   "v-28c1ab35": () => import(/* webpackChunkName: "v-28c1ab35" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/live/index.html.js").then(({ data }) => data),
+  // path: /tag/linux/
+  "v-211f44ee": () => import(/* webpackChunkName: "v-211f44ee" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/linux/index.html.js").then(({ data }) => data),
+  // path: /tag/ftp/
+  "v-b3116b4a": () => import(/* webpackChunkName: "v-b3116b4a" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/ftp/index.html.js").then(({ data }) => data),
   // path: /tag/git/
   "v-b310d42a": () => import(/* webpackChunkName: "v-b310d42a" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/git/index.html.js").then(({ data }) => data),
   // path: /tag/github/

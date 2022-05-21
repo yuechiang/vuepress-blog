@@ -9,10 +9,14 @@ export const pagesComponents = {
   "v-0be96e40": defineAsyncComponent(() => import(/* webpackChunkName: "v-0be96e40" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/2.跟尤雨溪学vue-plugin.html.vue")),
   // path: /article/Bats.html
   "v-61059cc9": defineAsyncComponent(() => import(/* webpackChunkName: "v-61059cc9" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/Bats.html.vue")),
+  // path: /article/daily2022-05-20.html
+  "v-b3cb250a": defineAsyncComponent(() => import(/* webpackChunkName: "v-b3cb250a" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/daily2022-05-20.html.vue")),
   // path: /article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A5.html
   "v-407f85f5": defineAsyncComponent(() => import(/* webpackChunkName: "v-407f85f5" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/daily2022年5月17日.html.vue")),
   // path: /article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A502.html
   "v-28801a33": defineAsyncComponent(() => import(/* webpackChunkName: "v-28801a33" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/daily2022年5月17日02.html.vue")),
+  // path: /article/ftp-linux.html
+  "v-983f3bbc": defineAsyncComponent(() => import(/* webpackChunkName: "v-983f3bbc" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/ftp-linux.html.vue")),
   // path: /article/git_remote_show.html
   "v-48e3e1fc": defineAsyncComponent(() => import(/* webpackChunkName: "v-48e3e1fc" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/git_remote_show.html.vue")),
   // path: /article/github_action.html
@@ -83,6 +87,10 @@ export const pagesComponents = {
   "v-3d5315f8": defineAsyncComponent(() => import(/* webpackChunkName: "v-3d5315f8" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/daily/index.html.vue")),
   // path: /tag/live/
   "v-28c1ab35": defineAsyncComponent(() => import(/* webpackChunkName: "v-28c1ab35" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/live/index.html.vue")),
+  // path: /tag/linux/
+  "v-211f44ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-211f44ee" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/linux/index.html.vue")),
+  // path: /tag/ftp/
+  "v-b3116b4a": defineAsyncComponent(() => import(/* webpackChunkName: "v-b3116b4a" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/ftp/index.html.vue")),
   // path: /tag/git/
   "v-b310d42a": defineAsyncComponent(() => import(/* webpackChunkName: "v-b310d42a" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/git/index.html.vue")),
   // path: /tag/github/

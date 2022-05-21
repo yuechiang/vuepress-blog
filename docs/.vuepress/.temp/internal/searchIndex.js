@@ -48,6 +48,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "2022-05-22",
+    "headers": [],
+    "path": "/article/daily2022-05-20.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "今天开始装修 HOUSE 了",
     "headers": [],
     "path": "/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A5.html",
@@ -58,6 +65,32 @@ export const searchIndex = [
     "title": "好不容易搭建一个博客却被抢了，哎",
     "headers": [],
     "path": "/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A502.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Linux 安装 ftp 服务",
+    "headers": [
+      {
+        "level": 2,
+        "title": "下载安装 ftp",
+        "slug": "下载安装-ftp",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "add user for ftp",
+        "slug": "add-user-for-ftp",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "config",
+        "slug": "config",
+        "children": []
+      }
+    ],
+    "path": "/article/ftp-linux.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -462,6 +495,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "linux Tags",
+    "headers": [],
+    "path": "/tag/linux/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "ftp Tags",
+    "headers": [],
+    "path": "/tag/ftp/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "git Tags",
     "headers": [],
     "path": "/tag/git/",
@@ -553,16 +600,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

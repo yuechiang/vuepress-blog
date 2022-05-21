@@ -1,12 +1,14 @@
 import { Vuepress } from '@vuepress/client'
 
 const routeItems = [
-  ["v-8daa1a0e","/",{"title":"波浪起伏","icon":"home","type":"home","readingTime":{"minutes":0.07,"words":21}},["/index.html","/README.md"]],
+  ["v-8daa1a0e","/",{"title":"波浪起伏","icon":"home","type":"home","readingTime":{"minutes":0.07,"words":21},"date":"2022-05-17T08:45:37.000Z"},["/index.html","/README.md"]],
   ["v-29425b72","/article/1.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-reactivity.html",{"title":"1.跟尤雨溪学 vue 之响应性","type":"article","readingTime":{"minutes":0.71,"words":212},"date":"2022-05-18T00:00:00.000Z","category":["programming"],"tag":["vue","尤雨溪","源码","响应性","reactivity"]},["/article/1.跟尤雨溪学vue-reactivity.html","/article/1.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-reactivity","/article/1.跟尤雨溪学vue-reactivity.md","/article/1.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-reactivity.md"]],
   ["v-0be96e40","/article/2.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-plugin.html",{"title":"跟尤雨溪学 vue 之 plugin","type":"article","readingTime":{"minutes":0.52,"words":157},"date":"2022-05-18T00:00:00.000Z","category":["programming"],"tag":["vue","尤雨溪","源码"]},["/article/2.跟尤雨溪学vue-plugin.html","/article/2.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-plugin","/article/2.跟尤雨溪学vue-plugin.md","/article/2.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-plugin.md"]],
   ["v-61059cc9","/article/Bats.html",{"title":"Bats-core: Bash Automated Testing System","type":"article","readingTime":{"minutes":0.2,"words":59},"date":"2022-05-17T00:00:00.000Z","category":["programming"],"tag":["bash","bats","test","shell"]},["/article/Bats","/article/Bats.md"]],
+  ["v-b3cb250a","/article/daily2022-05-20.html",{"title":"2022-05-22","type":"article","readingTime":{"minutes":0.01,"words":3},"date":"2022-05-20T00:00:00.000Z"},["/article/daily2022-05-20","/article/daily2022-05-20.md"]],
   ["v-407f85f5","/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A5.html",{"title":"今天开始装修 HOUSE 了","type":"article","readingTime":{"minutes":0.04,"words":11},"date":"2022-05-17T00:00:00.000Z","category":["live"],"tag":["daily","live"]},["/article/daily2022年5月17日.html","/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A5","/article/daily2022年5月17日.md","/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A5.md"]],
   ["v-28801a33","/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A502.html",{"title":"好不容易搭建一个博客却被抢了，哎","type":"article","readingTime":{"minutes":0.1,"words":30},"date":"2022-05-17T00:00:00.000Z","category":["live"],"tag":["live"]},["/article/daily2022年5月17日02.html","/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A502","/article/daily2022年5月17日02.md","/article/daily2022%E5%B9%B45%E6%9C%8817%E6%97%A502.md"]],
+  ["v-983f3bbc","/article/ftp-linux.html",{"title":"Linux 安装 ftp 服务","type":"article","readingTime":{"minutes":0.67,"words":200},"date":"2022-05-20T00:00:00.000Z","category":["programming"],"tag":["linux","ftp"]},["/article/ftp-linux","/article/ftp-linux.md"]],
   ["v-48e3e1fc","/article/git_remote_show.html",{"title":"git-查看远程仓库信息","type":"article","readingTime":{"minutes":0.05,"words":14},"date":"2022-05-17T00:00:00.000Z","category":["programming"],"tag":["git"]},["/article/git_remote_show","/article/git_remote_show.md"]],
   ["v-2f49550e","/article/github_action.html",{"title":"GitHub Actions","type":"article","readingTime":{"minutes":0.76,"words":227},"date":"2022-05-17T00:00:00.000Z"},["/article/github_action","/article/github_action.md"]],
   ["v-56161c6c","/article/github_error_10054.html",{"title":"解决 GIT 的 OpenSSL SSL_read: Connection was reset, errno 10054 问题","type":"article","readingTime":{"minutes":0.13,"words":39},"date":"2022-05-17T00:00:00.000Z","tag":["github"]},["/article/github_error_10054","/article/github_error_10054.md"]],
@@ -42,6 +44,8 @@ const routeItems = [
   ["v-09601066","/tag/shell/",{"title":"shell Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/shell/index.html"]],
   ["v-3d5315f8","/tag/daily/",{"title":"daily Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/daily/index.html"]],
   ["v-28c1ab35","/tag/live/",{"title":"live Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/live/index.html"]],
+  ["v-211f44ee","/tag/linux/",{"title":"linux Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/linux/index.html"]],
+  ["v-b3116b4a","/tag/ftp/",{"title":"ftp Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/ftp/index.html"]],
   ["v-b310d42a","/tag/git/",{"title":"git Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/git/index.html"]],
   ["v-132a6ac4","/tag/github/",{"title":"github Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/github/index.html"]],
   ["v-484552dc","/tag/markdown/",{"title":"markdown Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/markdown/index.html"]],

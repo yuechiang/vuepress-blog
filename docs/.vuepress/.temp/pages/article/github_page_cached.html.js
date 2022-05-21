@@ -9,22 +9,20 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
+  "git": {
+    "createdTime": 1652777137000,
+    "updatedTime": 1652777137000,
+    "contributors": [
+      {
+        "name": "yuechiang",
+        "email": "yuechiang@163.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.19,
     "words": 58
   },
   "filePathRelative": "article/github_page_cached.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

@@ -25,22 +25,20 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1652886625000,
+    "updatedTime": 1652886625000,
+    "contributors": [
+      {
+        "name": "yuechiang",
+        "email": "yuechiang@163.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.71,
     "words": 212
   },
   "filePathRelative": "article/1.跟尤雨溪学vue-reactivity.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

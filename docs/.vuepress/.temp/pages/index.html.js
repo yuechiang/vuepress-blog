@@ -18,22 +18,20 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
+  "git": {
+    "createdTime": 1652777137000,
+    "updatedTime": 1652798863000,
+    "contributors": [
+      {
+        "name": "yuechiang",
+        "email": "yuechiang@163.com",
+        "commits": 2
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.07,
     "words": 21
   },
   "filePathRelative": "README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
