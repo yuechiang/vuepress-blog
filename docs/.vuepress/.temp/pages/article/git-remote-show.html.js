@@ -1,0 +1,27 @@
+export const data = {
+  "key": "v-64089ac2",
+  "path": "/article/git-remote-show.html",
+  "title": "git-查看远程仓库信息",
+  "lang": "en-US",
+  "frontmatter": {
+    "date": "2022-05-17T00:00:00.000Z",
+    "tag": [
+      "git"
+    ],
+    "category": [
+      "programming"
+    ]
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "createdTime": null,
+    "updatedTime": null,
+    "contributors": []
+  },
+  "readingTime": {
+    "minutes": 0.05,
+    "words": 14
+  },
+  "filePathRelative": "article/git-remote-show.md"
+}

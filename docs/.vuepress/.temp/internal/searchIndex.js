@@ -69,6 +69,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "linux 安装 ftp 踩坑记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "无法显示远程文件夹错误",
+        "slug": "无法显示远程文件夹错误",
+        "children": []
+      }
+    ],
+    "path": "/article/ftp-linux-troubles.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Linux 安装 ftp 服务",
     "headers": [
       {
@@ -95,9 +109,204 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "git 每次都需要输入密码的结局办法",
+    "headers": [],
+    "path": "/article/git-credential-helper.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "git-查看远程仓库信息",
     "headers": [],
-    "path": "/article/git_remote_show.html",
+    "path": "/article/git-remote-show.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "GitHub 加速",
+    "headers": [
+      {
+        "level": 3,
+        "title": "通过修改 HOSTS 文件进行加速",
+        "slug": "通过修改-hosts-文件进行加速",
+        "children": []
+      }
+    ],
+    "path": "/article/git-speedup.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git 学习笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "配置文件",
+        "slug": "配置文件",
+        "children": [
+          {
+            "level": 3,
+            "title": "全局配置文件",
+            "slug": "全局配置文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "局部配置文件",
+            "slug": "局部配置文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看本地仓库状态",
+            "slug": "查看本地仓库状态",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看 objects 目录内容",
+        "slug": "查看-objects-目录内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看缓存区 index 内容",
+        "slug": "查看缓存区-index-内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "文件的状态",
+        "slug": "文件的状态",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分支 Branch",
+        "slug": "分支-branch",
+        "children": [
+          {
+            "level": 3,
+            "title": "查看分支",
+            "slug": "查看分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "创建分支",
+            "slug": "创建分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除分支",
+            "slug": "删除分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "切换分支",
+            "slug": "切换分支",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看 commit 历史记录",
+        "slug": "查看-commit-历史记录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "对比不同",
+        "slug": "对比不同",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "上传仓库",
+        "slug": "上传仓库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Git 压缩仓库",
+        "slug": "git-压缩仓库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Git 清理仓库垃圾对象",
+        "slug": "git-清理仓库垃圾对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看垃圾对象",
+        "slug": "查看垃圾对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看帮助",
+        "slug": "查看帮助",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看远程仓库分支",
+        "slug": "查看远程仓库分支",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看远程仓库地址",
+        "slug": "查看远程仓库地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "同步远程分支",
+        "slug": "同步远程分支",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "回滚",
+        "slug": "回滚",
+        "children": []
+      }
+    ],
+    "path": "/article/git-study-note.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "GitHub 技巧",
+    "headers": [
+      {
+        "level": 2,
+        "title": "搜索文件",
+        "slug": "搜索文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "在线打开项目",
+        "slug": "在线打开项目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "在线运行项目",
+        "slug": "在线运行项目",
+        "children": []
+      }
+    ],
+    "path": "/article/github-tips.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -119,6 +328,27 @@ export const searchIndex = [
     "title": "解决GitHub pages不能及时更新的问题",
     "headers": [],
     "path": "/article/github_page_cached.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hash 值如何计算",
+    "headers": [],
+    "path": "/article/hash.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "使用 Linux 的 watch 命令观察命令和任务的变化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "使用方法",
+        "slug": "使用方法",
+        "children": []
+      }
+    ],
+    "path": "/article/linux-watch.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -425,9 +655,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "office Category",
+    "title": "linux Category",
     "headers": [],
-    "path": "/category/office/",
+    "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -439,9 +669,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "linxu Category",
+    "headers": [],
+    "path": "/category/linxu/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "响应性 Tags",
     "headers": [],
     "path": "/tag/%E5%93%8D%E5%BA%94%E6%80%A7/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "office Category",
+    "headers": [],
+    "path": "/category/office/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -495,16 +739,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "linux Tags",
+    "title": "ftp Tags",
     "headers": [],
-    "path": "/tag/linux/",
+    "path": "/tag/ftp/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "ftp Tags",
+    "title": "trouble Tags",
     "headers": [],
-    "path": "/tag/ftp/",
+    "path": "/tag/trouble/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "linux Tags",
+    "headers": [],
+    "path": "/tag/linux/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -516,9 +767,86 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "credential Tags",
+    "headers": [],
+    "path": "/tag/credential/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "login Tags",
+    "headers": [],
+    "path": "/tag/login/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "push Tags",
+    "headers": [],
+    "path": "/tag/push/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "pull Tags",
+    "headers": [],
+    "path": "/tag/pull/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "github Tags",
     "headers": [],
     "path": "/tag/github/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "speedup Tags",
+    "headers": [],
+    "path": "/tag/speedup/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "tips Tags",
+    "headers": [],
+    "path": "/tag/tips/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "gitee Tags",
+    "headers": [],
+    "path": "/tag/gitee/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "tip Tags",
+    "headers": [],
+    "path": "/tag/tip/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hash Tags",
+    "headers": [],
+    "path": "/tag/hash/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "watch Tags",
+    "headers": [],
+    "path": "/tag/watch/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "monitor Tags",
+    "headers": [],
+    "path": "/tag/monitor/",
     "pathLocale": "/",
     "extraFields": []
   },

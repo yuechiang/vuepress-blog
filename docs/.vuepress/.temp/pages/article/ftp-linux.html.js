@@ -35,9 +35,15 @@ export const data = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1653113270000,
+    "updatedTime": 1653113270000,
+    "contributors": [
+      {
+        "name": "yuechiang",
+        "email": "yuechiang@163.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.67,
