@@ -1,14 +1,14 @@
 export const data = {
-  "key": "v-22b495db",
-  "path": "/category/office/",
-  "title": "office Category",
+  "key": "v-b3001e68",
+  "path": "/tag/yum/",
+  "title": "yum Tags",
   "lang": "en-US",
   "frontmatter": {
-    "title": "office Category",
+    "title": "yum Tags",
     "blog": {
       "type": "category",
-      "name": "office",
-      "key": "category"
+      "name": "yum",
+      "key": "tag"
     },
     "layout": "Blog"
   },

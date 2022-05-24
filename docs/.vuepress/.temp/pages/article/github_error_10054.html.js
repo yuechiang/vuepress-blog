@@ -11,20 +11,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {
-    "createdTime": 1652798863000,
-    "updatedTime": 1652798863000,
-    "contributors": [
-      {
-        "name": "yuechiang",
-        "email": "yuechiang@163.com",
-        "commits": 1
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 0.13,
     "words": 39
   },
   "filePathRelative": "article/github_error_10054.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

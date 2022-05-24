@@ -34,20 +34,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": 1653113270000,
-    "updatedTime": 1653113270000,
-    "contributors": [
-      {
-        "name": "yuechiang",
-        "email": "yuechiang@163.com",
-        "commits": 1
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 0.67,
     "words": 200
   },
   "filePathRelative": "article/ftp-linux.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

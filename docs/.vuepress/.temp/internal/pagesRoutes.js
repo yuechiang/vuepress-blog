@@ -1,7 +1,7 @@
 import { Vuepress } from '@vuepress/client'
 
 const routeItems = [
-  ["v-8daa1a0e","/",{"title":"波浪起伏","icon":"home","type":"home","readingTime":{"minutes":0.07,"words":21},"date":"2022-05-17T08:45:37.000Z"},["/index.html","/README.md"]],
+  ["v-8daa1a0e","/",{"title":"波浪起伏","icon":"home","type":"home","readingTime":{"minutes":0.07,"words":21}},["/index.html","/README.md"]],
   ["v-29425b72","/article/1.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-reactivity.html",{"title":"1.跟尤雨溪学 vue 之响应性","type":"article","readingTime":{"minutes":0.71,"words":212},"date":"2022-05-18T00:00:00.000Z","category":["programming"],"tag":["vue","尤雨溪","源码","响应性","reactivity"]},["/article/1.跟尤雨溪学vue-reactivity.html","/article/1.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-reactivity","/article/1.跟尤雨溪学vue-reactivity.md","/article/1.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-reactivity.md"]],
   ["v-0be96e40","/article/2.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-plugin.html",{"title":"跟尤雨溪学 vue 之 plugin","type":"article","readingTime":{"minutes":0.52,"words":157},"date":"2022-05-18T00:00:00.000Z","category":["programming"],"tag":["vue","尤雨溪","源码"]},["/article/2.跟尤雨溪学vue-plugin.html","/article/2.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-plugin","/article/2.跟尤雨溪学vue-plugin.md","/article/2.%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue-plugin.md"]],
   ["v-61059cc9","/article/Bats.html",{"title":"Bats-core: Bash Automated Testing System","type":"article","readingTime":{"minutes":0.2,"words":59},"date":"2022-05-17T00:00:00.000Z","category":["programming"],"tag":["bash","bats","test","shell"]},["/article/Bats","/article/Bats.md"]],
@@ -28,6 +28,7 @@ const routeItems = [
   ["v-8af1a6b8","/article/vim-select-all.html",{"title":"How To “Select All” In Vim/Vi?","type":"article","readingTime":{"minutes":0.4,"words":121},"date":"2022-05-18T00:00:00.000Z","category":["programming","office"],"tag":["vim","office","editor"]},["/article/vim-select-all","/article/vim-select-all.md"]],
   ["v-3316772e","/article/vuepress-theme-hope-comment.html",{"title":"vuepress-theme-hope评论功能","type":"article","readingTime":{"minutes":0.19,"words":57},"date":"2022-05-16T00:00:00.000Z","star":true},["/article/vuepress-theme-hope-comment","/article/vuepress-theme-hope-comment.md"]],
   ["v-d93f55bc","/article/vuepress%E8%B8%A9%E5%9D%91.html",{"title":"vuepress 踩坑记","type":"article","readingTime":{"minutes":0.24,"words":72},"date":"2022-05-17T00:00:00.000Z","category":["programming"],"tag":["vuepress","vuepress-theme-hope","踩坑"]},["/article/vuepress踩坑.html","/article/vuepress%E8%B8%A9%E5%9D%91","/article/vuepress踩坑.md","/article/vuepress%E8%B8%A9%E5%9D%91.md"]],
+  ["v-2fbf8870","/article/yum-source.html",{"title":"Linux 更换 yum 镜像源","type":"article","readingTime":{"minutes":0.31,"words":94},"date":"2022-05-23T00:00:00.000Z","category":["linux"],"tag":["linux","yum"]},["/article/yum-source","/article/yum-source.md"]],
   ["v-34f88824","/article/%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue.html",{"title":"跟尤雨溪学 vue","type":"article","readingTime":{"minutes":0.17,"words":50},"date":"2022-05-17T00:00:00.000Z","category":["programming"],"tag":["vue","尤雨溪","源码"]},["/article/跟尤雨溪学vue.html","/article/%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue","/article/跟尤雨溪学vue.md","/article/%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue.md"]],
   ["v-3706649a","/404.html",{"title":"","type":"page","readingTime":{"minutes":0,"words":0}},["/404"]],
   ["v-5bc93818","/category/",{"title":"Category","type":"page","readingTime":{"minutes":0,"words":0}},["/category/index.html"]],
@@ -80,6 +81,7 @@ const routeItems = [
   ["v-f8ff1358","/tag/editor/",{"title":"editor Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/editor/index.html"]],
   ["v-ed16b278","/tag/vuepress/",{"title":"vuepress Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/vuepress/index.html"]],
   ["v-6ccaed6d","/tag/vuepress-theme-hope/",{"title":"vuepress-theme-hope Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/vuepress-theme-hope/index.html"]],
+  ["v-b3001e68","/tag/yum/",{"title":"yum Tags","type":"page","readingTime":{"minutes":0,"words":0}},["/tag/yum/index.html"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

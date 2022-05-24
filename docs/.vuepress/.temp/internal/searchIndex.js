@@ -557,6 +557,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Linux 更换 yum 镜像源",
+    "headers": [],
+    "path": "/article/yum-source.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "跟尤雨溪学 vue",
     "headers": [
       {
@@ -926,5 +933,25 @@ export const searchIndex = [
     "path": "/tag/vuepress-theme-hope/",
     "pathLocale": "/",
     "extraFields": []
+  },
+  {
+    "title": "yum Tags",
+    "headers": [],
+    "path": "/tag/yum/",
+    "pathLocale": "/",
+    "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

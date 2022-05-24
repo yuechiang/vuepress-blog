@@ -159,14 +159,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
   "readingTime": {
     "minutes": 1.84,
     "words": 551
   },
   "filePathRelative": "article/git-study-note.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

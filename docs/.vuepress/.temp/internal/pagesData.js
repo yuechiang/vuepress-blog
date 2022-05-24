@@ -53,6 +53,8 @@ export const pagesData = {
   "v-3316772e": () => import(/* webpackChunkName: "v-3316772e" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/vuepress-theme-hope-comment.html.js").then(({ data }) => data),
   // path: /article/vuepress%E8%B8%A9%E5%9D%91.html
   "v-d93f55bc": () => import(/* webpackChunkName: "v-d93f55bc" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/vuepress踩坑.html.js").then(({ data }) => data),
+  // path: /article/yum-source.html
+  "v-2fbf8870": () => import(/* webpackChunkName: "v-2fbf8870" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/yum-source.html.js").then(({ data }) => data),
   // path: /article/%E8%B7%9F%E5%B0%A4%E9%9B%A8%E6%BA%AA%E5%AD%A6vue.html
   "v-34f88824": () => import(/* webpackChunkName: "v-34f88824" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/article/跟尤雨溪学vue.html.js").then(({ data }) => data),
   // path: /404.html
@@ -157,4 +159,6 @@ export const pagesData = {
   "v-ed16b278": () => import(/* webpackChunkName: "v-ed16b278" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/vuepress/index.html.js").then(({ data }) => data),
   // path: /tag/vuepress-theme-hope/
   "v-6ccaed6d": () => import(/* webpackChunkName: "v-6ccaed6d" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/vuepress-theme-hope/index.html.js").then(({ data }) => data),
+  // path: /tag/yum/
+  "v-b3001e68": () => import(/* webpackChunkName: "v-b3001e68" */"/root/vuepress-blog/docs/.vuepress/.temp/pages/tag/yum/index.html.js").then(({ data }) => data),
 }

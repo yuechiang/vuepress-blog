@@ -1,24 +1,25 @@
 export const data = {
-  "key": "v-22b495db",
-  "path": "/category/office/",
-  "title": "office Category",
+  "key": "v-2fbf8870",
+  "path": "/article/yum-source.html",
+  "title": "Linux 更换 yum 镜像源",
   "lang": "en-US",
   "frontmatter": {
-    "title": "office Category",
-    "blog": {
-      "type": "category",
-      "name": "office",
-      "key": "category"
-    },
-    "layout": "Blog"
+    "date": "2022-05-23T00:00:00.000Z",
+    "tag": [
+      "linux",
+      "yum"
+    ],
+    "category": [
+      "linux"
+    ]
   },
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0,
-    "words": 0
+    "minutes": 0.31,
+    "words": 94
   },
-  "filePathRelative": null
+  "filePathRelative": "article/yum-source.md"
 }
 
 if (import.meta.webpackHot) {
