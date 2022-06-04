@@ -48,6 +48,64 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "CentOS / RHEL 7 : Booting process",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Introduction of systemd",
+        "slug": "introduction-of-systemd",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. POST (Power on Self Test)",
+        "slug": "_1-post-power-on-self-test",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Selecting the bootable device (With MBR)",
+        "slug": "_2-selecting-the-bootable-device-with-mbr",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Loading the boot loader (GRUB2)",
+        "slug": "_3-loading-the-boot-loader-grub2",
+        "children": [
+          {
+            "level": 3,
+            "title": "initramfs",
+            "slug": "initramfs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Loading the kernel",
+        "slug": "_4-loading-the-kernel",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Starting systemd",
+        "slug": "_5-starting-systemd",
+        "children": []
+      }
+    ],
+    "path": "/article/centos7-boot-process.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "win10 CMD 使用代理",
+    "headers": [],
+    "path": "/article/cmd-proxy.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "2022-05-22",
     "headers": [],
     "path": "/article/daily2022-05-20.html",
@@ -339,6 +397,57 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Linux 引导启动过程",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.BOIS POST",
+        "slug": "_1-bois-post",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.MBR",
+        "slug": "_2-mbr",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.GRUB",
+        "slug": "_3-grub",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.Kenel",
+        "slug": "_4-kenel",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.Init",
+        "slug": "_5-init",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.RunLevel programs",
+        "slug": "_6-runlevel-programs",
+        "children": []
+      }
+    ],
+    "path": "/article/linux-boot-process.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "重新设置 Linux root 用户密码",
+    "headers": [],
+    "path": "/article/linux-root-password.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "使用 Linux 的 watch 命令观察命令和任务的变化",
     "headers": [
       {
@@ -510,6 +619,326 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Shell 脚本",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Shell 环境",
+        "slug": "shell-环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "运行 Shell 脚本有两种方法：",
+        "slug": "运行-shell-脚本有两种方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Shell 变量",
+        "slug": "shell-变量",
+        "children": [
+          {
+            "level": 3,
+            "title": "使用变量",
+            "slug": "使用变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "只读变量",
+            "slug": "只读变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除变量",
+            "slug": "删除变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "变量类型",
+            "slug": "变量类型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Shell 字符串",
+        "slug": "shell-字符串",
+        "children": [
+          {
+            "level": 3,
+            "title": "单引号",
+            "slug": "单引号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "双引号",
+            "slug": "双引号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "获取字符串长度",
+            "slug": "获取字符串长度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "提取子字符串",
+            "slug": "提取子字符串",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查找子字符串",
+            "slug": "查找子字符串",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "数组",
+        "slug": "数组",
+        "children": [
+          {
+            "level": 3,
+            "title": "定义数组",
+            "slug": "定义数组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "读取数组",
+            "slug": "读取数组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "获取数组长度",
+            "slug": "获取数组长度",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "重定向",
+        "slug": "重定向",
+        "children": [
+          {
+            "level": 3,
+            "title": "输出重定向",
+            "slug": "输出重定向",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "输入重定向",
+            "slug": "输入重定向",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "err 重定向",
+            "slug": "err-重定向",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "here document",
+            "slug": "here-document",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "/dev/null 文件",
+            "slug": "dev-null-文件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Shell 文件包含",
+        "slug": "shell-文件包含",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "历史命令",
+        "slug": "历史命令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "快捷键",
+        "slug": "快捷键",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "变量",
+        "slug": "变量",
+        "children": [
+          {
+            "level": 3,
+            "title": "全局变量定义文件",
+            "slug": "全局变量定义文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "局部变量定义文件",
+            "slug": "局部变量定义文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "只读变量",
+            "slug": "只读变量-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "环境变量加载顺序",
+            "slug": "环境变量加载顺序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "特殊变量",
+            "slug": "特殊变量",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "source 命令",
+        "slug": "source-命令",
+        "children": []
+      }
+    ],
+    "path": "/article/shell-bash.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "A Vim Guide for Advanced Users",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Useful “g” Keystrokes",
+        "slug": "useful-g-keystrokes",
+        "children": []
+      }
+    ],
+    "path": "/article/vim-advanced.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vim Commands: A Beginner Guide with Examples",
+    "headers": [
+      {
+        "level": 2,
+        "title": "The Modes of Vim",
+        "slug": "the-modes-of-vim",
+        "children": [
+          {
+            "level": 3,
+            "title": "Normal Mode",
+            "slug": "normal-mode",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Insert Mode",
+            "slug": "insert-mode",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Visual Mode",
+            "slug": "visual-mode",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Command-Line Mode",
+            "slug": "command-line-mode",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Searching",
+        "slug": "searching",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Undo and Redo",
+        "slug": "undo-and-redo",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vim Motion Commands",
+        "slug": "vim-motion-commands",
+        "children": [
+          {
+            "level": 3,
+            "title": "Moving Horizontally",
+            "slug": "moving-horizontally",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Moving Vertically",
+            "slug": "moving-vertically",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "The Language of Vim",
+        "slug": "the-language-of-vim",
+        "children": [
+          {
+            "level": 3,
+            "title": "Operators",
+            "slug": "operators",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Text Objects",
+            "slug": "text-objects",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Vim’s Options",
+            "slug": "vim-s-options",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/article/vim-beginner.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "How To “Select All” In Vim/Vi?",
     "headers": [
       {
@@ -648,9 +1077,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "live Category",
+    "title": "linux Category",
     "headers": [],
-    "path": "/category/live/",
+    "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -662,9 +1091,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "linux Category",
+    "title": "windows Category",
     "headers": [],
-    "path": "/category/linux/",
+    "path": "/category/windows/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -676,9 +1105,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "linxu Category",
+    "title": "live Category",
     "headers": [],
-    "path": "/category/linxu/",
+    "path": "/category/live/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -690,9 +1119,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "office Category",
+    "title": "linxu Category",
     "headers": [],
-    "path": "/category/office/",
+    "path": "/category/linxu/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -700,6 +1129,13 @@ export const searchIndex = [
     "title": "reactivity Tags",
     "headers": [],
     "path": "/tag/reactivity/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "office Category",
+    "headers": [],
+    "path": "/category/office/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -728,6 +1164,48 @@ export const searchIndex = [
     "title": "shell Tags",
     "headers": [],
     "path": "/tag/shell/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "centos Tags",
+    "headers": [],
+    "path": "/tag/centos/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "boot Tags",
+    "headers": [],
+    "path": "/tag/boot/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "windows Tags",
+    "headers": [],
+    "path": "/tag/windows/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "win10 Tags",
+    "headers": [],
+    "path": "/tag/win10/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "cmd Tags",
+    "headers": [],
+    "path": "/tag/cmd/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "proxy Tags",
+    "headers": [],
+    "path": "/tag/proxy/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -844,6 +1322,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "password Tags",
+    "headers": [],
+    "path": "/tag/password/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "root Tags",
+    "headers": [],
+    "path": "/tag/root/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "watch Tags",
     "headers": [],
     "path": "/tag/watch/",
@@ -907,9 +1399,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "office Tags",
+    "title": "beginner Tags",
     "headers": [],
-    "path": "/tag/office/",
+    "path": "/tag/beginner/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -917,6 +1409,13 @@ export const searchIndex = [
     "title": "editor Tags",
     "headers": [],
     "path": "/tag/editor/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "office Tags",
+    "headers": [],
+    "path": "/tag/office/",
     "pathLocale": "/",
     "extraFields": []
   },
